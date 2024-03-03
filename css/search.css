@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
+:root
+{
+	--orange: #fa8128;
+	--name: #020561;
+	--navbar: #21A733;
+	--box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+	--border: .2rem solid rgba(0,0,0.1);
+	--outline: .1rem solid rgba(0,0,0,.1);
+}
+
+*
+{
+	font-family: 'Rowdies', cursive;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	transition: all .2s linear;
+}
+
+html
+{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scroll-padding-top: 7rem;
+}
+
+body
+{
+	background: #DADADA;
+}
+
+.btn
+{
+	margin-top: 0rem;
+	display: inline-block;
+	padding: .8rem 3rem;
+	font-size: 1.8rem;
+	border-radius: .5rem;
+	border: .2rem solid black;
+	color: black;
+	cursor: pointer;
+	background: none;
+}
+
+.btn:hover
+{
+	color: var(--orange);
+}
+
+.header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem 9%;
+	background: white;
+	box-shadow: var(--box-shadow);
+}
+
+.header .logo
+{
+	font-size: 2.5rem;
+	color: var(--name);
+}
+
+.header .logo i
+{
+	color: var(--orange);
+}
+
+.header .heading
+{
+	font-size: 3rem;
+	margin: 0 1rem;
+	color: var(--navbar);
+}
+
+/* Search Bar */
+.search-form
+{
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	top: 17%;
+	right: 20%;
+	width: 90rem;
+	height: 5rem;
+	background: white;
+	border-radius: .5rem;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	box-shadow: var(--box-shadow);
+}
+
+.search-form input
+{
+	font-family: 'Poppins', sans-serif;
+	height: 100%;
+	width: 100%;
+	background: none;
+	text-transform: none;
+	font-size: 1.8rem;
+	color: black;
+	padding: 0 1.5rem;
+}
+
+.search-form label
+{
+	font-size: 2.2rem;
+	padding-right: 1.5rem;
+	color: black;
+	cursor: pointer;
+}
+
+.search-form label:hover
+{
+	color: var(--orange);
+}
+/* Search Bar */

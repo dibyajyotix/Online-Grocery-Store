@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin :0;
+	box-sizing: content-box;
+	background: rgb(115, 47, 115);
+
+}
+.body{
+	background: aquamarine;
+}
+.formcontainer{
+	height: 600px;
+	width: 600px;
+	margin: 50px auto;
+
+}
+
+.formcontainer form{
+	height:535px;
+	width: 500px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	background-image: conic-gradient(from -45deg,orange,red);
+	padding:60px;
+	text-transform: capitalize;
+	border-radius: 30px;
+	/*font-size: 2.5rems;*/
+
+}
+.formcontainer form h3{
+	text-align: center;
+	font-size: 2.5rem;
+	color: green;
+	background: none;
+}
+
+.formcontainer form input{
+	padding: 12px ;
+	margin: 5px 0 5px 0;
+	border-radius:15px;
+	border:none;
+	box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+	font-size: 1rem;
+	background-color: antiquewhite;
+}
+
+.formcontainer form textarea
+{
+	padding: 12px ;
+	height: 100rem;
+	background-color: antiquewhite;
+	margin: 5px 0 5px 0;
+	border-radius: 15px;
+	border:none;
+	box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+	font-size: 1rem;
+}
+
+.formcontainer .button
+{
+	align-self: flex-end;
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 100%;
+	color: rgb(100, 98, 98);
+	cursor: pointer;
+	background-color: yellow;
+}
+
+.formcontainer form input:hover
+{
+	box-shadow: 1px 1px 10px 4px rgb(100, 206, 242);
+}
+
+.formcontainer form textarea:hover
+{
+	box-shadow: 1px 1px 10px 4px rgb(100, 206, 242);
+}

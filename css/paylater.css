@@ -1,0 +1,169 @@
+.box
+{
+    width: 40rem;
+    height: 37rem;
+    background: gray;
+    margin-top: 17.5rem;
+    padding: 1rem 1rem;
+    box-shadow: 1px 1px 9px 2px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+}
+
+.box h1
+{
+    margin-top: 2rem;
+    color: blue;
+    font-size: 2.5rem;
+}
+
+.box form input
+{
+    width: 95%;
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.box form input:hover
+{
+	box-shadow: 1px 1px 10px 4px var(--orange);
+}
+
+.box .btn
+{
+    background: rgb(254, 144, 48);
+    color: white;
+    width: 40%;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.box .btn:hover
+{
+    background: none;
+    color: rgb(254, 144, 48);
+    box-shadow: 1px 1px 10px 4px var(--orange);
+}
+
+.walletbox
+{
+    width: 40rem;
+    height: 43rem;
+    background: gray;
+    margin-top: 15.5rem;
+    padding: 1rem 1rem;
+    box-shadow: 1px 1px 9px 2px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+}
+
+.walletbox h1
+{
+    margin-top: 2rem;
+    color: blue;
+    font-size: 2.5rem;
+}
+
+.walletbox form input
+{
+    width: 95%;
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.walletbox form input:hover
+{
+	box-shadow: 1px 1px 10px 4px var(--orange);
+}
+
+.walletbox .btn
+{
+    background: rgb(254, 144, 48);
+    color: white;
+    width: 40%;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.walletbox .btn:hover
+{
+    background: none;
+    color: rgb(254, 144, 48);
+    box-shadow: 1px 1px 10px 4px var(--orange);
+}
+
+.wallet
+{
+    width: 95%;
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.wallet:hover
+{
+	box-shadow: 1px 1px 10px 4px var(--orange);
+}
+
+.cardbox
+{
+    width: 40rem;
+    height: 58.5rem;
+    background: gray;
+    margin-top: 8.5rem;
+    padding: 1rem 1rem;
+    box-shadow: 1px 1px 9px 2px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+}
+
+.cardbox h1
+{
+    margin-top: 2rem;
+    color: blue;
+    font-size: 2.5rem;
+}
+
+.cardbox form label
+{
+    font-size: 1.8rem;
+}
+
+.cardbox form input
+{
+    width: 95%;
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.cardbox form input:hover
+{
+	box-shadow: 1px 1px 10px 4px var(--orange);
+}
+
+.cardbox .btn
+{
+    background: rgb(254, 144, 48);
+    color: white;
+    width: 40%;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.cardbox .btn:hover
+{
+    background: none;
+    color: rgb(254, 144, 48);
+    box-shadow: 1px 1px 10px 4px var(--orange);
+}
+
+.cardbox img
+{
+    width: 12rem;
+    height: 4rem;
+}

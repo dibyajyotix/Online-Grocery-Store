@@ -1,0 +1,53 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    /*background-image: url();*/
+    background-color: black;
+	font-family: 'josphin sans', sans-serif;
+
+}
+.wap{
+	margin-top: 7%;
+}
+.wap h1{
+
+font-family: 'Allura',cursive;
+font-size: 52px;
+margin-bottom: 60px;
+text-align: center;
+color: orange;
+}	
+
+.team{
+display:  flex;
+text-align: center;
+width: auto;
+justify-content: center;
+margin: 1.5rem;
+}
+
+.team .teammembers{
+ background: orange;
+ margin: 0.6rem;
+ margin-bottom: 80px;
+ width: 300px;
+ border-radius: 2rem;
+}
+
+img{
+	border-radius: 50%;
+	height: 12rem;
+	width: 12rem;
+    margin: 1rem;
+}
+
+.role
+{
+    margin-bottom: 0.7rem;
+}

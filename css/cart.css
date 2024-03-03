@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
+:root
+{
+	--orange: #fa8128;
+	--name: #020561;
+	--navbar: #21A733;
+	--box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+	--border: .2rem solid rgba(0,0,0.1);
+	--outline: .1rem solid rgba(0,0,0,.1);
+}
+
+*
+{
+	font-family: 'Rowdies', cursive;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	transition: all .2s linear;
+}
+
+html
+{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scroll-padding-top: 7rem;
+}
+
+body
+{
+	background: #DADADA;
+}
+
+.btn
+{
+	margin-top: 0rem;
+	display: inline-block;
+	padding: .8rem 3rem;
+	font-size: 1.8rem;
+	border-radius: .5rem;
+	border: .2rem solid black;
+	color: black;
+	cursor: pointer;
+	background: none;
+}
+
+.btn:hover
+{
+	color: var(--orange);
+}
+
+.header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem 9%;
+	background: white;
+	box-shadow: var(--box-shadow);
+}
+
+.header .logo
+{
+	font-size: 2.5rem;
+	color: var(--name);
+}
+
+.header .logo i
+{
+	color: var(--orange);
+}
+
+.header .heading
+{
+	font-size: 3rem;
+	margin: 0 1rem;
+	color: var(--navbar);
+}
+
+.total
+{
+	margin-top: 2rem;
+    width: 80%;
+	padding: 1rem;
+	padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+	font-size: 2rem;
+    border-bottom: var(--border);
+	border-top: var(--border);
+}
+
+.total .item
+{
+    text-align: center;
+    width: 34%;
+}
+
+.total .totalquantity
+{
+    width: 34%;
+    text-align: center;
+}
+
+.total .grandtotal
+{
+    text-align: center;
+}
+
+.empty
+{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+section
+{
+	padding: 3rem 5%
+}
+
+.categories .table
+{
+	background-color: white;
+	height: 15rem;
+	width: 70rem;
+	margin-top: 3rem;
+	border-radius: .75rem;
+	box-shadow: var(--box-shadow);
+}
+
+.categories .table:hover
+{
+	box-shadow: 1px 1px 10px 4px orange;
+}
+
+.categories .table tr td
+{
+	align-content: center;
+	padding-top: 0.5rem;
+}
+
+.categories .table .img
+{   
+    width: 15rem;
+}
+
+.categories .table .img img
+{
+	border-radius: 3rem;
+}
+
+.categories .table .name
+{   
+    width: 35rem;
+	font-family: 'Poppins', sans-serif;
+	font-size: 2rem;
+}
+
+.categories .table .quantity
+{  
+    width: 15rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    display: flex;
+    height: 2rem;
+    float: left;
+}
+
+.categories .table .paq
+{
+    padding-bottom: .5rem;
+	font-size: 1.6rem;
+	color: rgb(9, 209, 239);
+}
+
+.categories .table .btn
+{
+	float: right;
+	padding-top: 0.8rem;
+	margin-top: .4rem;
+	margin-right: 3rem;
+	font-size: 1.7rem;
+	color: #ff00a6;
+}
+
+.categories .table .btn:hover
+{
+	background-color: #ff8400;
+	color: white;
+}

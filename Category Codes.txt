@@ -1,0 +1,7 @@
+Beverages				bev
+Breads And Bakery		brb
+Dairy Products		    dry
+Grains And Nuts	    	grn
+Packed Foods			pac
+Vegetables And Fruits	veg
+Spices And Condiments	spc
